@@ -1,0 +1,62 @@
+* {
+  background-color: hsl(0, 0%, 98%);
+}
+img {
+  margin-left: 70%;
+}
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 1rem;
+  margin: 100px;
+}
+.grid-item {
+  padding: 20px;
+  text-align: center;
+}
+.border {
+  border: 1px solid black;
+}
+.top {
+  border-top: hsl(180, 62%, 55%) solid;
+  border-left: white;
+  border-right: white;
+  border-bottom: white;
+  padding: 20px;
+}
+.left {
+  border-top: hsl(0, 78%, 62%) solid;
+  border-left: white;
+  border-right: white;
+  border-bottom: white;
+  padding: 20px;
+}
+.right {
+  border-top: hsl(212, 86%, 64%) solid;
+  border-left: white;
+  border-right: white;
+  border-bottom: white;
+  padding: 20px;
+}
+.bottom {
+  border-top: hsl(34, 97%, 64%) solid;
+  border-left: white;
+  border-right: white;
+  border-bottom: white;
+  padding: 20px;
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+.center {
+  text-align: center;
+}
